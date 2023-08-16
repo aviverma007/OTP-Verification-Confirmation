@@ -1,6 +1,6 @@
 THIS IS AN OTP GENERATOR APP
 GO check this out...!!
-[![OTP VERIFICATION](https://img.shields.io/badge/Button-Label-Color)](https://vercel.com/aviverma007/otp-verification-confirmation-avi)
+[![OTP VERIFICATION](https://img.shields.io/badge/Button-Label-Color)](https://otp-verification-confirmation-avi.vercel.app/)
 
 ![localhost_3000_ (1)](https://user-images.githubusercontent.com/75136330/212552633-fe138d61-89da-4ece-9497-a6c779e50f33.png)
 
