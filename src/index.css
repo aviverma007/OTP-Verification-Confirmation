@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(13, 170, 160);
+  color: rgb(0, 0, 0);
+}
+/* .write_program {
+  display: flex;
+} */
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.lock {
+  background-color: aliceblue;
+  width: fit-content;
+  border-radius: 100%;
+  padding: 10px;
+  margin: auto;
+}
+.enter_otp {
+  font-weight: bold;
+  font-size: x-large;
+  margin: 55px;
+
+  color: rgb(255, 255, 255);
+}
+.otp-container {
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  .react-tel-input .form-control {
+    @apply !w-full py-6 !text-base;
+  }
+}
+.otp-container {
+  @apply flex justify-between gap-2;
+}
+.otp-container {
+  @apply !mr-0 flex-1 py-5 outline-none;
+}
+.verify-otp {
+  background-color: rgb(13, 170, 160);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  font-size: large;
+  font-weight: bold;
+  width: 100%;
+  margin-left: auto;
+}
+.react-tel-input .form-control {
+  @apply !w-full py-6 !text-base;
+}
